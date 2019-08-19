@@ -1,0 +1,173 @@
+body{
+    background: #E5E5E5;
+}
+.container{
+    width: 100%;
+    font-family: Sanchez;
+}
+.name{
+    position: relative;
+    top: 48px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 61px;
+    color: #CC0200;
+}
+.description{
+    border: solid #BEBEBE;
+    border-width: 4px 0 4px 0;
+    padding: 22px 0 22px 0;
+    top: 111px;
+    text-align: center;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    color: #BEBEBE; 
+    margin: 0 135px 0 135px;
+}
+.blog{
+    position: relative;
+    top: 134px;
+    margin: 0 135px 0 135px;
+}
+.blog__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+.blog__body{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #5E5E5E;
+}
+.blog__footer__button{
+    margin-top: 6px;
+    width: 124px;
+    height: 48px;
+    left: 135px;
+    top: 495px;
+    background: #CC0200;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.skills{
+    position: relative;
+    top: 303px;
+    margin: 0 16px 0 16px;
+}
+.skills__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+    text-align: center;
+}
+.skills__body{
+    margin: 26px 0 82px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills__body__box{
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    width: 33%;
+    padding: 0 1rem 0 0;
+    margin-right: 1rem;
+    box-sizing: border-box;
+}
+
+.skills__body__box--right{
+    margin-right: 0;
+}
+
+.skills__body__box__title{
+    width: 100%;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    padding: 16px 0 11px 16px;
+    border-top: 4px solid #CC0200;
+    border-bottom: 1px solid #E0E0E0;
+}
+.skills__body__box__title__link-container{
+    position: absolute;
+    top: 14px;
+    right: 16px;
+}
+.skills__body__box__title__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #CC0200;
+    text-decoration: none;
+}
+.skills__body__box__body{
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    padding: 16px 0 14px 16px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.skills__body__box__footer{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    padding: 12px 0 16px 16px;
+}
+.skills__body__box__footer__item2{
+    margin: 12px 0 12px 0;
+}
+@media all and (max-width:997px){
+    .skills__body__box{
+        margin-bottom: 1rem;
+        width: 50%;
+    }
+    .skills__body{
+        justify-content: flex-start;
+    }
+    .description{
+        margin: 0;
+    }
+    .blog{
+        margin: 0 16px 0 16px;
+    }
+    .skills__body__box__title__link{
+        display: none;
+    }
+    .skills__body__box__body{
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media all and (max-width: 658px) {
+    .skills__body{
+        flex-wrap: wrap;
+    }
+    .skills__body__box {
+        margin-bottom: 1rem;
+        width: 100%;
+        margin-right: 0;
+    }
+}
